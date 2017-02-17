@@ -1,2 +1,0 @@
-This a second temporary file to be ignored
-Changes made will not be committed
