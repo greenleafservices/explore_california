@@ -1,0 +1,11 @@
+# Comments in .gitignore start with a #
+# Comments cannot be in the same line as the command
+tempfile.txt
+.DS_store
+*.zip
+*.gz
+log/*.log   
+log/*.log. [0-9]
+# any changes made to the assets/images folder will not get included in the commit
+assets/images/
+!/assets/images/*.mp4
