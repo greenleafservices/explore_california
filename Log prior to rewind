@@ -1,0 +1,199 @@
+commit e3836d5909e8ed55992d7f7ea419c6a90bb56e8c
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Thu Feb 16 12:16:52 2017 -0500
+
+    Changed 24 hour support 4315 --> 4314
+
+commit d0a75830de25059392c91650529e89ab402836c5
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Thu Feb 16 12:14:48 2017 -0500
+
+    New Contacts.html
+
+commit 477336de78feda57d59c5ee856bd2d44acaa798d
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Thu Feb 16 12:13:37 2017 -0500
+
+    Removed contact.html
+
+commit 0cf554209fd913743c29f52ad5fcbb14c55e9609
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Thu Feb 16 12:05:32 2017 -0500
+
+    Adding folders back in
+
+commit a35595b9e14a3c694907d7d9222e155485ff7591
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Thu Feb 16 11:57:31 2017 -0500
+
+    test
+...skipping...
+    Second test
+
+commit 0e8c8ac7828d56de69d7183cb24deba48082671a
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Thu Feb 16 11:35:40 2017 -0500
+
+    Moved Comfortable and Hat to bottpm of list
+
+commit 7445cf8e334baff0b44c409b06c5787a76e66530
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Thu Feb 16 11:27:32 2017 -0500
+
+    Revert "Added sunglasses and sunsceen to bottom of listing"
+
+    This reverts commit f60cdc2c4eab7beb6bc331e173fdd14ed795e4a2.
+
+commit f60cdc2c4eab7beb6bc331e173fdd14ed795e4a2
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Thu Feb 16 11:26:41 2017 -0500
+
+    Added sunglasses and sunsceen to bottom of listing
+
+commit 403b9d2505d4becf2fafc7549f114a75956ac7a3
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Thu Feb 16 11:19:01 2017 -0500
+
+    recommit all
+
+commit b4d045799ba7c7090eba4b44419a78fd66a51d58
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Thu Feb 16 09:25:26 2017 -0500
+
+    Rearrange list items in resources.html
+
+commit 6872a0c005af83c834b4d046668879613a4f81ec
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Wed Feb 15 17:40:48 2017 -0500
+
+    Change contact.html - removed contractions
+
+commit c0229510faf7b68c4a67f8b0c7479e531100a414
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Wed Feb 15 17:40:05 2017 -0500
+
+    Change link for backpack.html to backpack_cal.html
+
+commit 4016e524d0f5f4bf628ba631b24d4b0f95e2fc22
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Wed Feb 15 17:21:41 2017 -0500
+
+    Changed 24 hour support number to 4314
+
+commit 3d823ec8826c834a268f311eda1fcbae4b7bb111
+Author: John Stegman <john@green-leaf-services.com>
+Date:   Wed Feb 15 17:07:59 2017 -0500
+
+    Initial Commit
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git checkout f1f21f016a53b7f325 -- resources.html
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   resources.html
+
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git commit -m "Restored resource.html from f1f21f016a53b7f325"
+[master daf3403] Restored resource.html from f1f21f016a53b7f325
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   resources.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git checkout -- resources.html
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ ^C
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git checkout 4016e524d0f5f4bf62 -- resources.html
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   resources.html
+
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git reset HEAD resources.html
+Unstaged changes after reset:
+M       resources.html
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   resources.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git checkout -- resources.html
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ $ git checkout 4016e524d0f5f4bf62 -- resources.html
+bash: $: command not found
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git checkout 4016e524d0f5f4bf62 -- resources.html
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   resources.html
+
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git HEAD resources.html
+git: 'HEAD' is not a git command. See 'git --help'.
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git reset HEAD resources.html
+Unstaged changes after reset:
+M       resources.html
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   resources.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$ git checkout -- resources.html
+
+JMS2@JMS2-PC MINGW64 /c/Users/jms2/documents/explore_california (master)
+$
